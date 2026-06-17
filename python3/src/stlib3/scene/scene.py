@@ -48,8 +48,8 @@ def Scene(root, gravity=[0.0,-9.81,0.0],
             if "SofaPython3" not in plugins:
                 plugins.append("SofaPython3")
 
-            if "Sofa.Component.IntegrationSchemes.Backward":
-                plugins.append("Sofa.Component.IntegrationSchemes.Backward")
+            if "Sofa.Component.IntegrationScheme.Backward":
+                plugins.append("Sofa.Component.IntegrationScheme.Backward")
 
             if doDebug:
                 from splib3.debug import DebugManager
